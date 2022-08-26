@@ -1,0 +1,129 @@
+/* global settings */
+:root {
+  --dark_bg_color: #1f2937;
+  --hero_main_text_color: #f9faf8;
+  --hero_main_text_font_size: 48px;
+  --hero_secondary_text_header_link_text: #e5e7eb;
+  --header_logo_text: 24px #f9faf8;
+  --button_color_cta_bg_color: #3882f6;
+  --information_header_text: 36px 800 #1f2937;
+  --quote_section_bg_color: #e5e7eb;
+  --quote_text: 36px 300 #1f2937; /* missing italics */
+  --left_right_size: 50px;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* header */
+.header {
+  display: flex;
+  flex-grow: 1;
+  background-color: var(--dark_bg_color);
+  color: white;
+  flex-direction: column;
+  padding-left: var(--left_right_size);
+  padding-right: var(--left_right_size);
+  padding-bottom: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--hero_secondary_text_header_link_text);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+}
+
+.links {
+  text-decoration: none;
+  padding: 2px;
+  color: var(--hero_secondary_text_header_link_text);
+  font-size: 12px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_text {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 350px;
+}
+
+.hero_main_text {
+  font-size: var(--hero_main_text_font_size);
+  color: var(--hero_main_text_color);
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.hero_secondary_text {
+  color: var(--hero_secondary_text_header_link_text);
+  font-size: 18px;
+}
+
+.hero_button {
+  background-color: var(--button_color_cta_bg_color);
+  color: var(--hero_secondary_text_header_link_text);
+  font-size: 18px;
+  border-radius: 12px;
+  width: 110px;
+  height: 40px;
+}
+
+.main_picture {
+  width: 350px;
+  border: 1px solid var(--dark_bg_color);
+  text-align: center;
+  padding: 70px 0;
+  background-color: gray;
+}
+
+/* showcase */
+.showcase {
+  display: flex;
+  flex-grow: 1;
+  padding-left: var(--left_right_size);
+  padding-right: var(--left_right_size);
+}
+
+/* quote */
+.quote {
+  display: flex;
+  flex-grow: 1;
+  padding-left: var(--left_right_size);
+  padding-right: var(--left_right_size);
+}
+
+/* footer */
+.footer {
+  display: flex;
+  flex-grow: 1;
+  padding-left: var(--left_right_size);
+  padding-right: var(--left_right_size);
+}
