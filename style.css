@@ -162,6 +162,7 @@
   padding-right: var(--left_right_size);
   padding-bottom: 50px;
   background-color: var(--quote_section_bg_color);
+  margin-bottom: 50px;
 }
 
 .quote_text {
@@ -183,8 +184,14 @@
 /* footer */
 .footer {
   display: flex;
+  justify-content: center;
+  gap: 250px;
   background-color: #3882f6;
+  color: white;
   padding-left: var(--left_right_size);
   padding-right: var(--left_right_size);
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-left: 250px;
+  margin-right: 250px;
 }
