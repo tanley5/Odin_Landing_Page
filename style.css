@@ -119,6 +119,7 @@
   padding-left: var(--left_right_size);
   padding-right: var(--left_right_size);
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .showcase_icons_group {
@@ -155,15 +156,35 @@
 /* quote */
 .quote {
   display: flex;
-  flex-grow: 1;
+  flex-direction: column;
+  padding-top: 50px;
   padding-left: var(--left_right_size);
   padding-right: var(--left_right_size);
+  padding-bottom: 50px;
+  background-color: var(--quote_section_bg_color);
+}
+
+.quote_text {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  font-style: italic;
+  margin-left: 330px;
+  margin-right: 250px;
+}
+
+.quote_author {
+  padding-top: 0;
+  margin-left: auto;
+  margin-right: 280px;
+  font-weight: bold;
 }
 
 /* footer */
 .footer {
   display: flex;
-  flex-grow: 1;
+  background-color: #3882f6;
   padding-left: var(--left_right_size);
   padding-right: var(--left_right_size);
+  margin-left: 250px;
 }
