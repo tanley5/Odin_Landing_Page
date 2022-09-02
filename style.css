@@ -9,7 +9,7 @@
   --information_header_text: 36px 800 #1f2937;
   --quote_section_bg_color: #e5e7eb;
   --quote_text: 36px 300 #1f2937; /* missing italics */
-  --left_right_size: 50px;
+  --left_right_size: 250px;
 }
 
 * {
@@ -68,6 +68,7 @@
   align-items: center;
   padding-top: 75px;
   padding-bottom: 75px;
+  gap: 30px;
 }
 
 .main_text {
