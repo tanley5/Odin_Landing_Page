@@ -66,13 +66,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .main_text {
   display: flex;
   flex-direction: column;
-  gap: 0;
   width: 350px;
+  flex: 1;
 }
 
 .hero_main_text {
@@ -80,6 +82,7 @@
   color: var(--hero_main_text_color);
   font-weight: 800;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .hero_secondary_text {
@@ -97,11 +100,13 @@
 }
 
 .main_picture {
-  width: 350px;
   border: 1px solid var(--dark_bg_color);
-  text-align: center;
-  padding: 70px 0;
+  display: flex;
   background-color: gray;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 227px;
 }
 
 /* showcase */
