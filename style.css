@@ -113,8 +113,42 @@
 .showcase {
   display: flex;
   flex-grow: 1;
+  flex-direction: column;
+  gap: 20px;
   padding-left: var(--left_right_size);
   padding-right: var(--left_right_size);
+  padding-top: 40px;
+}
+
+.showcase_icons_group {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 25px;
+}
+
+.showcase_icon_parent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 250px;
+  width: 180px;
+  align-items: center;
+}
+
+.showcase_icon {
+  text-decoration: none;
+  color: black;
+  border: 3px solid blue;
+  background-color: white;
+  height: 180px;
+  width: 150px;
+  border-radius: 30px;
+}
+
+.showcase_icon_text {
+  color: gray;
+  text-align: center;
 }
 
 /* quote */
