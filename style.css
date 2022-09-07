@@ -98,6 +98,7 @@
   border-radius: 12px;
   width: 110px;
   height: 40px;
+  border-style: solid;
 }
 
 .main_picture {
@@ -185,6 +186,7 @@
 .footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 250px;
   background-color: #3882f6;
   color: white;
@@ -194,4 +196,23 @@
   padding-bottom: 25px;
   margin-left: 250px;
   margin-right: 250px;
+  border-radius: 10px;
+}
+
+.footer_button {
+  display: flex;
+  border-color: white;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Copyright */
+.copyright {
+  text-align: center;
+  background-color: var(--dark_bg_color);
+  color: white;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
